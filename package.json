@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest"
+    "test": "jest",
+    "build:ios": "react-native bundle --entry-file='index.ios.js' --bundle-output='./ios/TicketingSoft/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'"
   },
   "dependencies": {
+    "expo": "^31.0.5",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
     "react-native-splash-screen": "^3.0.6",
