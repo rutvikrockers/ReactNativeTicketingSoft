@@ -1,4 +1,7 @@
 {
   "name": "TicketingSoft",
-  "displayName": "TicketingSoft"
+  "displayName": "TicketingSoft",
+  "expo": {
+    "sdkVersion": "24.0.0"
+  }
 }
