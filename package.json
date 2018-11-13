@@ -9,7 +9,11 @@
   "dependencies": {
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
-    "react-native-splash-screen": "^3.0.6"
+    "react-native-splash-screen": "^3.0.6",
+    "react-redux": "^5.1.1",
+    "react-router-native": "^4.3.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0"
   },
   "devDependencies": {
     "@babel/core": "^7.1.5",
