@@ -1,5 +1,10 @@
+import {
+  StyleSheet,
+} from 'react-native';
+import colors from './colors';
+import forms from './forms';
 const styles = StyleSheet.create({
- 
+    ...forms,
     root: {
       flex: 1,
       justifyContent: 'flex-start',

@@ -1,5 +1,5 @@
 const colors = {
-    highlight: 'rgba(225, 112, 85,1.0)',
+    highlight: 'rgba(97, 155, 17,1.0)',
     Theme: 'rgba(232, 175, 43,1.0)',
     hero: 'rgba(253, 203, 110,1.0)',
     dark: {
@@ -10,7 +10,7 @@ const colors = {
     light: {
       background: 'rgb(223, 230, 233)',
       medium: 'rgb(142,142,142)',
-      foreground: 'rgb(17,16,12)',
+      foreground: 'rgb(97,155,17)',
       lightForeground: 'rgb(116, 185, 255)',
     }
   }

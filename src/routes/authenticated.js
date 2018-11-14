@@ -5,7 +5,7 @@ import {
 } from 'react-native';
 
 import App from '../../App';
-
+import Home from '../actions/home';
 import {connect} from 'react-redux';
 import styles from '../styles/main.js';
 
