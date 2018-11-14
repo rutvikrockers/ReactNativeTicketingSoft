@@ -17,9 +17,7 @@ class Login extends Component {
     super(props);
     this.state = {email: '', password: ''}
   }
-  componentWillMount() {
-    this.props.dispatch(getGuestToken()); 
-  }
+  
   login() {
     this.props.dispatch(authenticate(this.state.email, this.state.password, this.props.user.guestToken)); 
   }
