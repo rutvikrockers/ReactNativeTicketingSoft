@@ -1,8 +1,6 @@
 import React, {Component} from 'react';
 
-import {Platform, StyleSheet, View, Text} from 'react-native';
-
-import {Platform, View, Text, TextInput} from 'react-native';
+import {StyleSheet,Platform, View, Text, TextInput} from 'react-native';
 import Button from './src/components/shared/button';
 import styles from './src/styles/main';
 import {authenticate} from './src/actions';
@@ -86,7 +84,7 @@ export default class App extends Component<Props> {
   }
 }
 
-const styles = StyleSheet.create({
+const styles1 = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',

@@ -11,6 +11,7 @@
     "expo": "^31.0.5",
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
+    "react-native-config": "^0.11.5",
     "react-native-splash-screen": "^3.0.6",
     "react-redux": "^5.1.1",
     "redux-persist": "^5.10.0",
